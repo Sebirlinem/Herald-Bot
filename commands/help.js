@@ -34,7 +34,7 @@ module.exports = {
 		message.author.send(data, { split: true })
 			.then(() => {
 				if (message.channel.type !== 'dm') {
-					message.channel.send('I\'ve sent you a DM with all my commands!');
+					message.channel.send('I\'ve sent you a DM!');
 				}
 			})
 			.catch(() => message.reply('it seems like I can\'t DM you!'));
