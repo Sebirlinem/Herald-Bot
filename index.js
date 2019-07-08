@@ -1,7 +1,6 @@
 // require modules and files
 const fs = require('fs');
 const Discord = require('discord.js');
-const client = new Discord.Client();
 const { prefix, token } = require('./config.json');
 
 // create a new Discord client
@@ -53,5 +52,4 @@ client.on('message', message => {
 });
 
 // login to Discord with your app's token
-//client.login(token);
-client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
+client.login(token);
