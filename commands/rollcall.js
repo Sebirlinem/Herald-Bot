@@ -15,9 +15,9 @@ module.exports = {
 			embed: {
 				color: 0xffffff,
 				title: 'Lochac Roll of Arms',
-				url: 'http://lochac.sca.org/LRoA/index.php',
+				url: 'http://roll.lochac.sca.org/index.php',
 				thumbnail:{
-					url: 'http://lochac.sca.org/LRoA/Emblazons/LochacArms.gif',
+					url: 'http://roll.lochac.sca.org/Emblazons/LochacArms.gif',
 				},
 				fields: [
 					{
@@ -31,7 +31,7 @@ module.exports = {
 					},
 				],
 				image: {
-					url: 'http://lochac.sca.org/LRoA/Emblazons/' + call + '.gif',
+					url: 'http://roll.lochac.sca.org/Emblazons/' + call + '.gif',
 				},
 			},
 		});
